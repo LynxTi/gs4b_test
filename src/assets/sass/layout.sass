@@ -1,0 +1,40 @@
+html
+  --font-size: 14px
+  min-height: 100vh
+
+
+  ::-webkit-scrollbar-thumb
+    background: #434950
+
+  ::-webkit-scrollbar
+    background: transparent linear-gradient(257deg, #3B4046 0%, #272B30 100%) 0% 0% no-repeat padding-box
+    width: 4px
+
+body
+  font-family: 'Montserrat', sans-serif
+  min-height: 100vh
+
+.layout
+  display: grid
+  transition: left 0.2s
+  grid-template-areas: "content"
+  width: auto
+  margin: auto
+  grid-template-columns: 1024px
+
+.wrapper
+  justify-content: center
+  display: flex
+  position: relative
+  width: auto
+  overflow-x: initial
+
+.content
+  grid-area: content
+  margin-top: 0
+  margin-bottom: 0
+  text-align: initial
+  width: auto
+
+.content__inner
+  position: relative
